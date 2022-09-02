@@ -7,6 +7,9 @@
   "module": "dist/snapshot.esm.js",
   "browser": "dist/snapshot.min.js",
   "types": "dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js"
+  },
   "dependencies": {
     "@ensdomains/eth-ens-namehash": "^2.0.15",
     "@ethersproject/abi": "^5.6.4",
