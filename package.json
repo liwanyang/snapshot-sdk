@@ -1,6 +1,6 @@
 {
   "name": "snapshot-sdk",
-  "version": "0.4.5",
+  "version": "0.4.6",
   "repository": "https://github.com/liwanyang/snapshot-sdk",
   "license": "MIT",
   "main": "dist/snapshot.cjs.js",
