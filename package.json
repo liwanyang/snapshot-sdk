@@ -1,7 +1,7 @@
 {
   "name": "snapshot-sdk",
-  "version": "0.4.25",
-  "repository": "snapshot-labs/snapshot.js",
+  "version": "0.4.5",
+  "repository": "https://github.com/liwanyang/snapshot-sdk",
   "license": "MIT",
   "main": "dist/snapshot.cjs.js",
   "module": "dist/snapshot.esm.js",
