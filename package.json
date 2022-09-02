@@ -1,5 +1,5 @@
 {
-  "name": "@snapshot-labs/snapshot.js",
+  "name": "snapshot-sdk",
   "version": "0.4.25",
   "repository": "snapshot-labs/snapshot.js",
   "license": "MIT",
