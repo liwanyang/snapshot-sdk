@@ -191,7 +191,7 @@ export async function getVp(
   options?: Options
 ) {
   if (!options) options = {};
-  if (!options.url) options.url = 'https://score.snapshot.org';
+  if (!options.url) options.url = 'https://testnet-snapshot-score.aitd.io';
   const init = {
     method: 'POST',
     headers: {

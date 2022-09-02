@@ -3643,7 +3643,7 @@ function getVp(address, network, strategies, snapshot, space, delegation, option
                     if (!options)
                         options = {};
                     if (!options.url)
-                        options.url = 'https://score.snapshot.org';
+                        options.url = 'https://testnet-snapshot-score.aitd.io';
                     init = {
                         method: 'POST',
                         headers: {
