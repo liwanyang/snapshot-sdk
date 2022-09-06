@@ -1272,7 +1272,7 @@ function getSnapshots(network, snapshot, provider, networks) {
                             number: true
                         }
                     };
-                    url = 'https://blockfinder.snapshot.org';
+                    url = 'https://testnet-snapshot-brovider.aitd.io ';
                     return [4 /*yield*/, subgraphRequest(url, query)];
                 case 2:
                     data = _a.sent();
