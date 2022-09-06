@@ -1274,9 +1274,11 @@ function getSnapshots(network, snapshot, provider, networks) {
     });
 }
 
+var broviderUrl = 'https://testnet-snapshot-brovider.aitd.io';
+
 var providers = {};
 function getProvider(network) {
-    var url = "https://brovider.xyz/" + network;
+    var url = broviderUrl + "/" + network;
     if (!providers[network])
         providers[network] = new StaticJsonRpcProvider({ url: url, timeout: 25000 });
     return providers[network];
