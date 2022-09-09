@@ -159,7 +159,7 @@ export async function getScores(
   network: string,
   addresses: string[],
   snapshot: number | string = 'latest',
-  scoreApiUrl = 'https://testnet-snapshot-score.aitd.io/api/scores'
+  scoreApiUrl = 'https://snapshot-score.aitd.io/api/scores'
 ) {
   try {
     const params = {
@@ -191,7 +191,7 @@ export async function getVp(
   options?: Options
 ) {
   if (!options) options = {};
-  if (!options.url) options.url = 'https://testnet-snapshot-score.aitd.io';
+  if (!options.url) options.url = 'https://snapshot-score.aitd.io';
   const init = {
     method: 'POST',
     headers: {

@@ -20,7 +20,7 @@ export async function getSnapshots(network, snapshot, provider, networks) {
       number: true
     }
   };
-  const url = 'https://testnet-snapshot-brovider.aitd.io ';
+  const url = 'https://snapshot-brovider.aitd.io';
   const data = await subgraphRequest(url, query);
   data.blocks.forEach((block) => (snapshots[block.network] = block.number));
   return snapshots;

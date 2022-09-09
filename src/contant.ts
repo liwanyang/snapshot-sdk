@@ -1,1 +1,1 @@
-export const broviderUrl = 'https://testnet-snapshot-brovider.aitd.io'
+export const broviderUrl = 'https://snapshot-brovider.aitd.io'
